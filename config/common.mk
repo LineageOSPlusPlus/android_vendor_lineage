@@ -17,7 +17,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
 
 # Disable extra StrictMode features on all non-engineering builds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.sys.strictmode.disable=true
-endif
+
 
 BUILD_FINGERPRINT := google/raven/raven:12/SP2A.220505.002/8353555:user/release-keys
 
