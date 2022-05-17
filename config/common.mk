@@ -64,8 +64,7 @@ else
 $(warning Building vanilla - without gapps)
 $(warning Add export WITH_GMS=true)
 PRODUCT_PACKAGES += \
-    Jelly \
-    LineageSetupWizard
+    Jelly
 
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
