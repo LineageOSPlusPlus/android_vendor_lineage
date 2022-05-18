@@ -424,7 +424,7 @@ ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),build/target/product/security/testkey)
 endif
 endif
 
-LINEAGE_VERSION := LineageOS++-19.1-$(shell date -u +%Y%m%d)-Version$(LINEAGEOSPP_VERSION)
+LINEAGE_VERSION := LineageOS++-19.1-$(shell date -u +%Y%m%d)-V$(LINEAGEOSPP_VERSION)
 LINEAGE_DISPLAY_VERSION := $(LINEAGE_VERSION)
 TARGET_VENDOR_RELEASE_BUILD_ID := $(LINEAGE_VERSION)
 
